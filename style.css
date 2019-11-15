@@ -1,0 +1,60 @@
+body{
+  background-color: lightgrey;
+}
+
+.bildegrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bilde{
+  width: 100%;
+}
+.størrelse{
+  width: 100%;
+}
+
+
+@media (max-width: 1500px){
+  .bildegrid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  body{
+    background-image: url(bakgrunn.bobler.jpg);
+  }
+}
+
+
+
+@media (max-width: 900px){
+  .bildegrid{
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+
+@media (max-width: 1100px){
+  body{
+    background-color: red;
+    background-image: url();
+  }
+}
+
+@media (max-width: 700px){
+  .bildegrid{
+    grid-template-columns: 1fr 1fr;
+  }
+body{
+    background-color: lightpink;
+    background-image: url();
+  }
+}
+
+@media (max-width: 500px){
+  .bildegrid{
+    grid-template-columns: 1fr;
+  }
+body{
+    background-color: lightyellow;
+    background-image: url();
+  }
+}
